@@ -1,4 +1,4 @@
-import '../styles/common/Button.scss'
+import '@/styles/common/Button.scss'
 
 const Button = ({ text, link }) => {
   return (
