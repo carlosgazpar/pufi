@@ -23,19 +23,19 @@ const Header = () => {
         <div className="header-col">
           <HeaderLinkItem
             title="Puffi Puff"
+            img="/assets/img/icon-pufi-puff.png"
+          />
+          <HeaderLinkItem
+            title="Puffi Rain"
             img="/assets/img/umbrella-outline.svg"
           />
           <HeaderLinkItem
-            title="Puffi Puff"
-            img="/assets/img/umbrella-outline.svg"
+            title="Puffi Cart"
+            img="/assets/img/icon-pufi-cart.png"
           />
           <HeaderLinkItem
-            title="Puffi Puff"
-            img="/assets/img/umbrella-outline.svg"
-          />
-          <HeaderLinkItem
-            title="Puffi Puff"
-            img="/assets/img/umbrella-outline.svg"
+            title="Puffi Nap"
+            img="/assets/img/icon-pufi-nap.png"
           />
         </div>
         <div className="header-col">

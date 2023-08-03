@@ -20,7 +20,7 @@ const MainSlider = () => {
         </div>
         <div
           className="main-slider-item"
-          style={{ backgroundImage: "url(/assets/img/main-slider1.jpg)" }}
+          style={{ backgroundImage: "url(/assets/img/main-slider2.jpg)" }}
         >
           <h1>
             Estár cómodo,
@@ -31,7 +31,7 @@ const MainSlider = () => {
         </div>
         <div
           className="main-slider-item"
-          style={{ backgroundImage: "url(/assets/img/main-slider1.jpg)" }}
+          style={{ backgroundImage: "url(/assets/img/main-slider3.jpg)" }}
         >
           <h1>
             Estár cómodo,

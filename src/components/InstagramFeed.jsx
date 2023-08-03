@@ -15,32 +15,32 @@ const InstagramFeed = () => {
         <div className="instagram-feed-grid ">
           <InstagramFeedItem
             alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            img="/assets/img/instagram-pufi-1.jpg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
-            alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            alt="Instagram2"
+            img="/assets/img/instagram-pufi-2.jpg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
-            alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            alt="Instagram3"
+            img="/assets/img/instagram-pufi-3.jpg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
-            alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            alt="Instagram4"
+            img="/assets/img/instagram-pufi-4.jpg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
-            alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            alt="Instagram5"
+            img="/assets/img/instagram-pufi-5.jpg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
-            alt="Instagram1"
-            img="/assets/img/pufi-1.jpg"
+            alt="Instagram6"
+            img="/assets/img/instagram-pufi-6.jpg"
             url="https://www.instagram.com/"
           />
         </div>
