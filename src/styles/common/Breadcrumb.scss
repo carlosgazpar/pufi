@@ -1,0 +1,10 @@
+@import '../variables';
+.breadcrumb{
+  width: 100%;
+  text-align: center;
+  h4{
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 3px;
+  }
+}

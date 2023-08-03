@@ -1,0 +1,27 @@
+@import '../variables';
+.instagram-feed{
+  margin-top: 6em;
+  .instagram-feed-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin-top: 4em;
+    a{
+      max-height: 200px;
+      transition: 3s all;
+      display: block;
+      &:hover{
+        opacity: .6;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:767px){
+  .instagram-feed{
+    .instagram-feed-grid{
+      grid-template-columns: 1fr;
+    }
+  }
+}
