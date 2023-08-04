@@ -31,7 +31,7 @@ const Header = () => {
           />
           <HeaderLinkItem
             title="Puffi Cart"
-            img="/assets/img/icon-pufi-cart.png"
+            img="/assets/img/icon-pufi-cart.svg"
           />
           <HeaderLinkItem
             title="Puffi Nap"

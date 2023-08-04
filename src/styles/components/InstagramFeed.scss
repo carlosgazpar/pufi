@@ -10,6 +10,9 @@
       max-height: 200px;
       transition: .3s all;
       display: block;
+      img{
+        object-fit: cover;
+      }
       &:hover{
         opacity: .6;
       }

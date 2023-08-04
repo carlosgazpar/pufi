@@ -20,12 +20,12 @@ const InstagramFeed = () => {
           />
           <InstagramFeedItem
             alt="Instagram2"
-            img="/assets/img/instagram-pufi-2.jpg"
+            img="/assets/img/instagram-pufi-2.jpeg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
             alt="Instagram3"
-            img="/assets/img/instagram-pufi-3.jpg"
+            img="/assets/img/instagram-pufi-3.jpeg"
             url="https://www.instagram.com/"
           />
           <InstagramFeedItem
@@ -40,7 +40,7 @@ const InstagramFeed = () => {
           />
           <InstagramFeedItem
             alt="Instagram6"
-            img="/assets/img/instagram-pufi-6.jpg"
+            img="/assets/img/instagram-pufi-6.jpeg"
             url="https://www.instagram.com/"
           />
         </div>
