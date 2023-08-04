@@ -42,6 +42,20 @@ footer {
           
         }
       }
+      .footer-socials{
+        display: flex;
+        p{
+          font-size: 11px;
+        }
+        a{
+          color: black;
+          margin-left: .8em;
+          svg{
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
     }
   }
   .footer-copyright {
