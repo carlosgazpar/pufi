@@ -4,8 +4,8 @@ const initialState = {
   value: false,
 };
 
-export const menu = createSlice({
-  name: "menu",
+export const form = createSlice({
+  name: "form",
   initialState,
   reducers: {
     triggerDisplay: (state) => {
@@ -16,5 +16,5 @@ export const menu = createSlice({
 
 export const {
   triggerDisplay
-} = menu.actions;
-export default menu.reducer;
+} = form.actions;
+export default form.reducer;

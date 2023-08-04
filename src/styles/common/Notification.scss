@@ -1,0 +1,27 @@
+@import '../variables';
+
+.Notification{
+  position: fixed;
+  top: 30px;
+  right: calc(-300px + -3em);
+  border: 1px solid #666;
+  border-right: 0;
+  background-color: white;
+  padding: 1.5em;
+  font-size: 14px;
+  line-height: 19px;
+  max-width: 300px;
+  text-align: center;
+  color: #666;
+  z-index: 1000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  svg{
+    color: $green;
+    margin-right: 6px;
+  }
+}
+
+.Notification-show{
+  right: 0;
+}
