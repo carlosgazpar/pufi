@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pufi
+
+Es un proyecto hecho en Next.js, desplegado en Vercel. Utiliza las siguientes librerias:
+- `react-elastic-carousel` para el Slider principal.
+- `sass` Como pre-procesador de css.
+- `font-awesomw-icons` para los iconos.
+- `redux` Para el manejo del estado del header y el newslwtter.
+- `formik` para validaciones del formulario.
+- `firebase` Para la gestión de la base de datos de donde se almacena la información del newsletter.
+
 
 ## Getting Started
 
