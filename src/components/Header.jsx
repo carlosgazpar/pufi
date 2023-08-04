@@ -1,10 +1,18 @@
+'use client';
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "@/styles/components/Header.scss";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import HeaderLinkItem from "@/common/HeaderLinkItem";
 
+import { useAppDispatch } from "@/redux/hook";
+import { triggerDisplay } from '@/redux/features/menuSlice';
+
+import "@/styles/components/Header.scss";
+
 const Header = () => {
+
+  const dispatch = useAppDispatch();
+
   return (
     <header>
       <div className="header-container">
@@ -45,7 +53,7 @@ const Header = () => {
 
         <div className="header-col">
           <div className="hambuger-menu">
-            <FontAwesomeIcon width={35} icon={faBars} />
+            <FontAwesomeIcon width={35} onClick={() => dispatch(triggerDisplay())} icon={faBars} />
           </div>
         </div>
       </div>

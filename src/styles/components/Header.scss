@@ -46,16 +46,18 @@ header {
           &:first-child {
             border: 0;
           }
-          &:hover img {
+          &:hover img{
             animation-name: bounce;
             animation-timing-function: ease;
             animation-duration: 2s;
             animation-iteration-count: infinite;
           }
-          &:last-child {
-            img {
-              max-width: 35px;
-              max-height: 45px;
+          &:last-child{
+            img{
+              width: 45px;
+              height: 40px;
+              padding-top: 5px;
+              margin-bottom: 5px;
             }
           }
         }
@@ -92,6 +94,8 @@ header {
         svg {
           color: #fff;
           cursor: pointer;
+          width: 40px;
+          height: 40px;
         }
       }
     }
