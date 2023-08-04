@@ -8,7 +8,7 @@ const MainSlider = () => {
   return (
     <div className="main-slider">
       <ReactElasticCarousel showArrows={false} enableAutoPlay={true} autoPlaySpeed={3000}>
-        <MainSliderItem img='/assets/img/main-slider3.jpg' link='' linkText='Shop' />
+        <MainSliderItem img='/assets/img/main-slider3.jpeg' link='' linkText='Shop' />
         <MainSliderItem img='/assets/img/main-slider2.jpg' link='' linkText='Shop' />
         <MainSliderItem img='/assets/img/main-slider1.jpg' link='' linkText='Shop' />
       </ReactElasticCarousel>
