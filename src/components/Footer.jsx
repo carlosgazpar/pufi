@@ -1,4 +1,10 @@
 import "@/styles/components/Footer.scss";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 const Footer = () => {
@@ -35,10 +41,20 @@ const Footer = () => {
             alt="Compra Segura"
             title="Compra Segura"
           />
-
         </div>
         <div className="footer-main-col">
-          <p>Siguenos en </p>
+          <div className="footer-socials">
+            <p>Siguenos en </p>
+            <a target="_blank" href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </a>
+            <a target="_blank" href="https://twitter.com/?lang=es">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="footer-copyright">
