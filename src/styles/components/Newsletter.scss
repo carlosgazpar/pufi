@@ -1,10 +1,44 @@
-@import '../variables';
-.newsletter{
+@import "../variables";
+.newsletter {
   margin-top: 6em;
   text-align: center;
-  p{
-    margin-top: .25em;
-    
+  p {
+    margin-top: 0.25em;
+  }
+  .newsletter-form {
+    margin-top: 20px;
+    .newsletter-form-item {
+      display: flex;
+      border: 1.5px solid #999;
+      button{
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        padding: 0 1em;
+        cursor: pointer;
+        &:hover{
+          background-color: #f5f5f5;
+        }
+      }
+      input{
+        background-color: white;
+        font-size: 14px;
+        color: black;
+        border: 0;
+        display: block;
+        width: 100%;
+        line-height: 0;
+        outline: none;
+        font-family: $font;
+        padding: .75em 1.25em;
+      }
+    }
+    .newsletter-form-error {
+      font-size: 14px;
+      line-height: 27px;
+      color: #dc3232;
+      margin-top: 1em;
+      display: block;
+    }
   }
 }
-
